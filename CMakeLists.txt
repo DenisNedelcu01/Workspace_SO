@@ -3,4 +3,4 @@ project(Workspace)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Workspace main.cpp)
+add_executable(Workspace main.cpp cmake-build-debug/SharedMemory.cpp)

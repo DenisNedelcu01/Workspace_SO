@@ -51,11 +51,9 @@ int main() {
             }
         }
     }
-
     sem_destroy(&sem);
     munmap(mem, 1024);
     close(fd);
     shm_unlink("Shared Memory");
-
     return 0;
 }
